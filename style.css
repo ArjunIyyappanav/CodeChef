@@ -159,16 +159,3 @@ footer{
     margin:5px;
 }
 
-.message{
-    height : 70px;
-    width : 80vw;
-    text-align: center;
-    background-color: blue;
-}
-
-.message > input{
-    height : 60px;
-    width : 1200px;
-    border-radius: 20px;
-    border:2px solid grey;
-}

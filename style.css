@@ -1,0 +1,174 @@
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    display:flex;
+    flex-direction: column;
+    justify-content:flex-end;
+    background-color: #fecd45;
+    /* background-image: url(https://www.foodiesfeed.com/wp-content/uploads/2019/02/messy-pizza-on-a-black-table.jpg); */
+}
+
+header{
+    position:sticky;
+    display:flex;
+    justify-content: space-between;
+    height: 18vh;
+    /* border:2px solid red; */
+    border-radius: 20px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.977);
+    background-color: rgba(255,255,255,0.3);
+    backdrop-filter:blur(0.6);
+    margin:5px;
+}
+
+.logo-pic{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo-pic > img{
+    background-color: black;
+    border-radius: 20px;
+    height:90px;
+    width:90px;
+    margin:10px;
+    margin-left:30px;
+}
+
+.logo-pic > img:hover{
+    border:2px solid black;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.3);
+}
+
+.info{
+    display: flex;
+    justify-content: space-around;
+    width:28vw;
+    margin-right: 10vw;
+}
+
+.info > a{
+    margin-top: 50px;
+    font-size: 23px;
+    font-family: "Matemasie", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color:#c54141;
+    text-shadow: 0 2px 10px rgba(0,0,0,0.697);
+    transition:font-size 0.3s ease-in-out;
+}
+
+.info > a:hover{
+    font-size: 27px;
+}
+
+main{
+    background-color: grey;
+    height:120vh;
+    /* border:2px solid red; */
+    box-shadow: 0px 2px 10px rgba(0,0,0,0.997);
+    background-color: rgba(255,255,255,0.5);
+    backdrop-filter:blur(0.6);
+    border-radius: 20px;
+    display : grid;
+    grid-template-rows: 1fr 1fr;
+    gap : 10px;
+}
+
+
+main > .content-1{
+    /* border : 2px solid red; */
+    display : grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+main > .content-1 > .content-info> p{
+    width : 100%;
+    font-family:"Nerko One",cursive;
+    font-weight : 200;
+    font-size: 25px;
+    text-align: center;
+    /* border :2px solid blue; */
+    margin : 15px;
+    margin-top:23%;
+}
+
+main > .content-1 > .content-image{
+    text-align: center;
+    padding : 30px;
+}
+
+main > .content-1 > .content-image > img{
+    border : 10px solid black;
+    border-radius: 20px;
+    transition: opacity 0.5s ease-in-out;
+}
+
+main > .content-1 > .content-image > img:hover{
+    border : 15px solid black;
+    opacity : 0.5;
+}
+
+main > .content-2{
+    /* border : 2px solid red; */
+    display : grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+main > .content-2 > .content-info> p{
+    width : 100%;
+    font-family:"Nerko One",cursive;
+    font-weight : 200;
+    font-size: 25px;
+    text-align: center;
+    /* border :2px solid blue; */
+    margin : 15px;
+    margin-top:23%;
+    margin-right: 10px;
+}
+
+main > .content-2 > .content-image{
+    text-align: center;
+    padding : 30px;
+}
+
+main > .content-2 > .content-image > img{
+    border : 10px solid black;
+    border-radius: 20px;
+    transition: opacity 0.5s ease-in-out;
+}
+
+main > .content-2 > .content-image > img:hover{
+    border : 15px solid black;
+    opacity : 0.5;
+}
+
+footer{
+    display: flex;
+    height:20vh;
+    /* border:2px solid red; */
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 2px 10px rgba(0,0,0,0.997);
+    background-color: rgba(255,255,255,0.3);
+    backdrop-filter:blur(0.6);
+    margin:5px;
+}
+
+.message{
+    height : 70px;
+    width : 80vw;
+    text-align: center;
+    background-color: blue;
+}
+
+.message > input{
+    height : 60px;
+    width : 1200px;
+    border-radius: 20px;
+    border:2px solid grey;
+}
